@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ploutos — Empowering Lives</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --gold:#FFD700;
+      --gold-deep:#FFB400;
+      --ink:#0f1220;
+      --ink-2:#1c1f3a;
+      --cloud:#f0f2f8;
+      --paper:#ffffff;
+    }
+    body {
+      margin:0;
+      font-family:'Segoe UI', Arial, sans-serif;
+      background:linear-gradient(135deg,#f9f9f9,#e8f0ff);
+      color:#222;
+    }
+
+    /* Hero */
+    header {
+      background:linear-gradient(135deg,var(--ink),var(--ink-2));
+      color:#fff;
+      padding:60px 20px;
+      text-align:center;
+    }
+    header h1 {
+      font-size:56px;
+      margin:0;
+      background:linear-gradient(90deg,var(--gold),var(--gold-deep));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+    header p {
+      font-size:20px;
+      font-style:italic;
+      margin-top:10px;
+      background:linear-gradient(90deg,var(--gold),var(--gold-deep));
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    /* Navigation */
+    nav {
+      background:#161a2e;
+      padding:14px;
+      text-align:center;
+    }
+    nav a {
+      color:#fff;
+      margin:0 16px;
+      text-decoration:underline;
+      font-weight:600;
+    }
+    nav a:hover { color:var(--gold); }
+
+    /* Sections */
+    section {
+      max-width:1000px;
+      margin:40px auto;
+      padding:26px;
+      background:var(--paper);
+      border-radius:14px;
+      box-shadow:0 4px 14px rgba(0,0,0,0.12);
+    }
+    section h2 {
+      margin-top:0;
+      color:var(--ink);
+      border-bottom:3px solid var(--gold);
+      padding-bottom:10px;
+    }
+    ul { padding-left:20px; }
+
+    /* Leadership Board */
+    .board-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:24px;
+      margin-top:30px;
+    }
+    .board-card {
+      border-radius:16px;
+      padding:20px;
+      color:#fff;
+      text-align:center;
+      box-shadow:0 6px 16px rgba(0,0,0,0.15);
+      transition:transform 0.3s, box-shadow 0.3s;
+    }
+    .board-card:hover {
+      transform:translateY(-6px);
+      box-shadow:0 12px 24px rgba(0,0,0,0.25);
+    }
+    .board-card img {
+      width:100px;
+      height:100px;
+      border-radius:50%;
+      border:3px solid #fff;
+      margin-bottom:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    }
+    .board-card h3 {
+      margin:8px 0 4px;
+      font-size:20px;
+      font-weight:bold;
+    }
+    .board-card .role {
+      font-weight:600;
+      color:#FFD700;
+      margin-bottom:8px;
+    }
+    .board-card .desc {
+      font-size:14px;
+      line-height:1.4;
+    }
+    .gradient1 { background:linear-gradient(135deg,#0f1220,#FFD700); }
+    .gradient2 { background:linear-gradient(135deg,#1c1f3a,#50e3c2); }
+    .gradient3 { background:linear-gradient(135deg,#2a2d4f,#FFB400); }
+    .gradient4 { background:linear-gradient(135deg,#0f1220,#ff6f61); }
+    .gradient5 { background:linear-gradient(135deg,#1c1f3a,#6a5acd); }
+    .gradient6 { background:linear-gradient(135deg,#2a2d4f,#20c997); }
+
+    /* Footer */
+    footer {
+      background:var(--ink);
+      color:#cfd3df;
+      text-align:center;
+      padding:24px 16px;
+      margin-top:40px;
+    }
+    footer p:last-child {
+      color:var(--gold);
+      font-style:italic;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header>
+    <h1>Ploutos</h1>
+    <p>Empowering Lives</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about"><u>About Us</u></a>
+    <a href="#services"><u>Services</u></a>
+    <a href="#mission"><u>Mission</u></a>
+    <a href="#vision"><u>Vision</u></a>
+    <a href="#values"><u>Values</u></a>
+    <a href="#leadership"><u>Leadership Team</u></a>
+    <a href="#contact"><u>Contact</u></a>
+  </nav>
+
+  <!-- About Us -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Ploutos is a purpose-driven company specializing in local supply chain optimization and computer science solutions. Founded and led by CEO Japhael Bongole, Ploutos is committed to transforming how communities and businesses manage logistics, data, and operational efficiency.</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li><strong>Procurement & Distribution:</strong> Streamlining how goods are sourced, moved, and delivered.</li>
+      <li><strong>Inventory Optimization:</strong> Smart tools to reduce waste and improve resource use.</li>
+      <li><strong>Vendor Networks:</strong> Connecting local producers and vendors into resilient ecosystems.</li>
+      <li><strong>AI-Powered Logistics:</strong> Real-time tracking, automation, and predictive planning.</li>
+      <li><strong>Data Platforms:</strong> Dashboards and analytics for confident decision-making.</li>
+      <li><strong>Secure Infrastructure:</strong> Cloud-based systems built for safety and scalability.</li>
+    </ul>
+  </section>
+
+  <!-- Mission -->
+  <section id="mission">
+    <h2>Mission</h2>
+    <p>To revolutionize local supply chains and digital systems through innovative, secure, and purpose-driven solutions that empower communities and businesses.</p>
+  </section>
+
+  <!-- Vision -->
+  <section id="vision">
+    <h2>Vision</h2>
+    <p>To become a leading force in optimizing local logistics and advancing smart technologies that drive sustainable development and economic resilience.</p>
+  </section>
+
+  <!-- Values -->
+  <section id="values">
+    <h2>Values</h2>
+    <ul>
+      <li><strong>Energy:</strong> Acting with urgency, creativity, and drive to solve real-world problems.</li>
+      <li><strong>Loyalty:</strong> Honoring commitments and building trust with partners and team members.</li>
+      <li><strong>Progress:</strong> Embracing innovation and continuous improvement in everything we do.</li>
+      <li><strong>Security:</strong> Protecting data, systems, and relationships with integrity and care.</li>
+    </ul>
+  </section>
+
+  <!-- Leadership Board -->
+  <section id="leadership">
+    <h2>Leadership Team</h2>
+    <div class="board-grid">
+      <div class="board-card gradient1">
+        <img src="japhael.jpg" alt="Japhael Bongole">
+        <h3>Japhael Bongole</h3>
+        <p class="role">Chief Executive Officer</p>
+        <p class="desc">Sets the vision, leads strategy, and represents Ploutos publicly.</p>
+      </div>
+      <div class="board-card gradient2">
+        <img src="images/jethro.jpg" alt="Ekotoi Jethro Jubilee">
+        <h3>Ekotoi Jethro Jubilee</h3>
+        <p class="role">Chief Operating Officer</p>
+        <p class="desc">Oversees daily operations and ensures strategic execution.</p>
+      </div>
+      <div class="board-card gradient3">
+             <div class="board-card gradient3">
+        <img src="images/collins.jpg" alt="Olowo Collins">
+        <h3>Olowo Collins</h3>
+        <p class="role">Managing Director</p>
+        <p class="desc">Leads divisions and bridges leadership with ground teams.</p>
+      </div>
+      <div class="board-card gradient4">
+        <img src="images/isobel.jpg" alt="Isobel Esther Kisa">
+        <h3>Isobel Esther Kisa</h3>
+        <p class="role">Chief Financial Officer</p>
+        <p class="desc">Manages budgets, investments, and financial health.</p>
+      </div>
+      <div class="board-card gradient5">
+        <img src="images/ezekiel.jpg" alt="Ezekiel Kaye">
+        <h3>Ezekiel Kaye</h3>
+        <p class="role">Chief Marketing Officer</p>
+        <p class="desc">Drives branding, outreach, and customer engagement.</p>
+      </div>
+      <div class="board-card gradient6">
+        <img src="images/victor.jpg" alt="Victor Ogara">
+        <h3>Victor Ogara</h3>
+        <p class="role">Chief Technology Officer</p>
+        <p class="desc">Leads innovation, product development, and tech strategy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:dynamicploutos@yandex.com">dynamicploutos@yandex.com</a></p>
+    youtube: http://www.youtube.com/@Ploutos-b6i
+    <p>Follow us on social media for updates and community impact stories.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ploutos. All rights reserved.</p>
+    <p>Ploutos isn’t just a company—it’s a movement toward smarter, stronger, and more connected communities.</p>
+  </footer>
+
+</body>
+</html>
+
+        
