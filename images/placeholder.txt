@@ -1,1 +1,6 @@
-hhh
+<img src="images/japhael.jpg" alt="Japhael Bongole">
+<img src="images/jethro.jpg" alt="ekotoi jethro jubilee">
+<img src="images/isobel.jpg" alt="Isobel Esther Kisa">
+<img src="images/collins.jpg" alt="Olowo Collins">
+<img src="images/victor.jpg" alt="Victor Ogara">
+<img src="images/ezekiel.jpg" alt="Ezekiel Kaye">
